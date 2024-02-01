@@ -97,3 +97,72 @@ main {
   line-height: 1.5;
   text-wrap: wrap;
 }
+
+@media screen and (min-width: 760px) {
+  .top-wrapper {
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: space-between; */
+  }
+  main {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .section1 {
+    text-align: left;
+    width: 40%;
+    margin: 0;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+  }
+  .section1 h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    width: 100%;
+    margin: 0;
+    line-height: 2.5rem;
+    margin-bottom: 16px;
+  }
+
+  .reviews {
+    padding: 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+  }
+  .top {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .reviews.second {
+    position: relative;
+    right: -3rem;
+  }
+  .reviews.third {
+    position: relative;
+    right: -6rem;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  .buyer {
+    width: 30%;
+  }
+
+  .buyer.second {
+    position: relative;
+    top: 2rem;
+  }
+  .buyer.third {
+    position: relative;
+    top: 4rem;
+  }
+}
