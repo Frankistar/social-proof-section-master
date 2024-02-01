@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --Very-dark-magenta: hsl(300, 43%, 22%);
+  --Soft-pink: hsl(333, 80%, 67%);
+  --Dark-grayish-magenta: hsl(303, 10%, 53%);
+  --Light-grayish-magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  color: var(--Very-dark-magenta);
+}
+
+main {
+  padding: 3rem 2rem;
+  width: 100%;
+}
+
+.section1 {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.section1 h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.reviews {
+  background-color: var(--Light-grayish-magenta);
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.section2 h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buyer {
+  background-color: var(--Very-dark-magenta);
+  color: var(--White);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.header {
+  height: 40px;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.header img {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.inside-header p {
+  color: var(--Soft-pink);
+}
+
+.buyer p {
+  line-height: 1.5;
+  text-wrap: wrap;
+}
